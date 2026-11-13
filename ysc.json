@@ -1,35 +1,5 @@
-// 【清锋影视线路聚合】
-// 【接口均来源于互联网 勿信任何广告】
-// 【佛系更新 部分接口可能会失效】
-// 【接口无法使用时请更换接口重试】
-// 【失效接口反馈 email：feners@qq.com】
-
 {
   "urls": [
-    {
-      "url": "http://www.饭太硬.com/tv",
-      "name": "🍚饭硬线路"
-    },
-    {
-      "url": "http://肥猫.com",
-      "name": "🐱肥猫线路"
-    },
-    {
-      "url": "http://我不是.摸鱼儿.com",
-      "name": "🐟摸鱼线路"
-    },
-    {
-      "url": "http://tv.laohu.cool/tvbox.json",
-      "name": "🐅老虎线路"
-    },
-    {
-      "url": "http://fmys.top/fmys.json",
-      "name": "🐎驸马线路"
-    },
-    {
-      "url": "http://rihou.cc:555/nzk/nzk0722.json",
-      "name": "🚀D佬线路"
-    },
     {
       "url": "https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/XYQTVBox.json",
       "name": "🚀香雅情线路"
@@ -41,10 +11,6 @@
     {
       "url": "https://盒子迷.top/禁止贩卖",
       "name": "🚀盒子迷线路"
-    },
-    {
-      "url": "http://cdn.qiaoji8.com/tvbox.json",
-      "name": "🚀天天线路"
     },
     {
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/keluo8824-cell/tvbox/refs/heads/main/4k.json",
