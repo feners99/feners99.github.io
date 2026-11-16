@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title>清锋影视解析</title>
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+<div class="container">
+<h2><i class="fa-solid fa-play"></i> 清锋影视解析</h2>
+
+<div class="player-wrapper">
+<div class="player-placeholder" id="playerPlaceholder">正在等待解析</div>
+<iframe id="playerFrame" allowfullscreen></iframe>
+</div>
+
+<div class="controls">
+<select id="apiSelect">
+<option value="https://www.ckplayer.vip/jiexi/?url=">线路1 [主节点]</option>
+<option value="https://free.maccms.xyz/?url=">线路2 [备用节点]</option>
+</select>
+<div class="input-group">
+<input type="text" id="videoUrl" placeholder="请输入需要解析的链接...">
+<button class="paste-btn" id="pasteBtn" title="粘贴">
+<i class="fa-solid fa-paste"></i>
+</button>
+</div>
+<button class="btn-play" onclick="playHere()">开始解析</button>
+</div>
+<p class="tips"><i class="fa-solid fa-circle-info"></i> 提示：若解析失败请切换线路</p>
+</div>
+
+<div class="custom-toast-container" id="toastContainer"></div>
+<script src="./js/main.js"></script>
+</body>
+</html>
